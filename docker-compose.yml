@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    env_file: .env
+    ports:
+      - 3030:3000
+    volumes:
+      - ./config:/app/config
+    environment:
+      PUID: $PUID
+      PGID: $PGID

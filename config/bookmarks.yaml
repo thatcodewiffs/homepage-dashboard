@@ -1,0 +1,27 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/thatcodewiffs/
+    - Bitbucket:
+        - abbr: BT
+          href: https://bitbucket.org/
+
+- Social:
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+    - Twitter:
+        - abbr: T
+          href: https://twitter.com/thatcodewiffs/
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://www.youtube.com/feed/subscriptions
+    - Tidal:
+        - abbr: TD
+          href: https://listen.tidal.com/

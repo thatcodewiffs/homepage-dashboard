@@ -1,0 +1,10 @@
+*
+!.gitignore
+!bookmarks.yaml
+!custom.css
+!custom.js
+!docker.yaml
+!kubernetes.yaml
+!services.yaml
+!settings.yaml
+!widgets.yaml

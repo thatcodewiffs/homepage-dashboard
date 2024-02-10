@@ -1,0 +1,118 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Media:
+    - Plex:
+        icon: plex.png
+        href: {{HOMEPAGE_VAR_PLEX_URL}}
+        description: Media Streaming
+        widget:
+            type: plex
+            url: {{HOMEPAGE_VAR_PLEX_URL}}
+            key: {{HOMEPAGE_VAR_PLEX_KEY}}
+    - Tautulli:
+        icon: tautulli.png
+        href: {{HOMEPAGE_VAR_TAUTULLI_URL}}
+        description: Plex monitoring, analytics and notifications
+        widget:
+            type: tautulli
+            url: {{HOMEPAGE_VAR_TAUTULLI_URL}}
+            key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
+    - Ombi:
+        icon: ombi.png
+        href: {{HOMEPAGE_VAR_OMBI_URL}}
+        description: Media request tool
+        widget:
+            type: ombi
+            url: {{HOMEPAGE_VAR_OMBI_URL}}
+            key: {{HOMEPAGE_VAR_OMBI_KEY}}
+
+- Books:
+    - Komga:
+        icon: komga.png
+        href: {{HOMEPAGE_VAR_KOMGA_URL}}
+        description: Manga management
+        widget:
+            type: komga
+            url: {{HOMEPAGE_VAR_KOMGA_URL}}
+            username: {{HOMEPAGE_VAR_KOMGA_USERNAME}}
+            password: {{HOMEPAGE_VAR_KOMGA_PASSWORD}}
+    - CalibreWeb:
+        icon: calibre.png
+        href: {{HOMEPAGE_VAR_CALIBREWEB_URL}}
+        description: Book frontend management
+        widget:
+            type: calibreweb
+            url: {{HOMEPAGE_VAR_CALIBREWEB_URL}}
+            username: {{HOMEPAGE_VAR_CALIBREWEB_USERNAME}}
+            password: {{HOMEPAGE_VAR_CALIBREWEB_PASSWORD}}
+    - Calibre:
+        icon: calibre.png
+        href: {{HOMEPAGE_VAR_CALIBRE_URL}}
+        description: Book management
+          
+- Media Management:
+    - Sonarr:
+        icon: sonarr.png
+        href: {{HOMEPAGE_VAR_SONARR_URL}}
+        description: Series management
+        widget:
+            type: sonarr
+            url: {{HOMEPAGE_VAR_SONARR_URL}}
+            key: {{HOMEPAGE_VAR_SONARR_KEY}}
+    - Radarr:
+        icon: radarr.png
+        href: {{HOMEPAGE_VAR_RADARR_URL}}
+        description: Movie management
+        widget:
+            type: radarr
+            url: {{HOMEPAGE_VAR_RADARR_URL}}
+            key: {{HOMEPAGE_VAR_RADARR_KEY}}
+    - Prowlarr:
+        icon: prowlarr.png
+        href: {{HOMEPAGE_VAR_PROWLARR_URL}}
+        description: Index management
+        widget:
+            type: prowlarr
+            url: {{HOMEPAGE_VAR_PROWLARR_URL}}
+            key: {{HOMEPAGE_VAR_PROWLARR_KEY}}
+
+- Downloaders:
+    - QBitTorrent:
+        href: {{HOMEPAGE_VAR_QBITTORRENT_URL}}
+        description: Torrent Client
+        widget:
+            type: qbittorrent
+            url: {{HOMEPAGE_VAR_QBITTORRENT_URL}}
+            username: {{HOMEPAGE_VAR_QBITTORRENT_USERNAME}}
+            password: {{HOMEPAGE_VAR_QBITTORRENT_PASSWORD}}
+
+- Storage:
+    - TrueNas:
+        href: {{HOMEPAGE_VAR_TRUENAS_URL}}
+        description: Main Nas
+        widget:
+            type: truenas
+            url: {{HOMEPAGE_VAR_TRUENAS_URL}}
+            key: {{HOMEPAGE_VAR_TRUENAS_KEY}}
+
+- Network:
+     - Pi-Hole:
+        icon: pi-hole.svg
+        href: {{HOMEPAGE_VAR_PIHOLE_ADMIN_URL}}
+        description: Pi-Hole Instance
+        widget:
+            type: pihole
+            url: {{HOMEPAGE_VAR_PIHOLE_URL}}
+            key: {{HOMEPAGE_VAR_PIHOLE_KEY}}
+
+- Syncthing Instances:
+    - SyncthingBooks-Source:
+        icon: syncthing.svg
+        href: {{HOMEPAGE_VAR_SYNCTHING_1_URL}}
+        description: Syncthing - Book Source Instance
+    - SyncthingBooks-Target:
+        icon: syncthing.svg
+        href: {{HOMEPAGE_VAR_SYNCTHING_2_URL}}
+        description: Syncthing - Book Target Instance
